@@ -1,0 +1,6 @@
+[submodule "include/livestreamconfig"]
+	path = include/livestreamconfig
+	url = https://github.com/VU-ASL/shared-LivestreamConfiguration.git
+[submodule "include/rtc"]
+	path = include/rtc
+	url = https://github.com/VU-ASL/shared-RtcDefinitions.git

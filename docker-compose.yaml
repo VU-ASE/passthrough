@@ -1,0 +1,18 @@
+version: "3"
+
+# Change this to one image with web-monitor!!
+
+name: "ase-forwarding-server"
+
+services:
+  webui:
+    container_name: ase-forwarding-server
+    image: aselabsvu/forwarding-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ASE_FWSERVER_IP=${ASE_FWSERVER_IP}
+    ports:
+      - "7500:7500"
+      - 40000:40000/udp
