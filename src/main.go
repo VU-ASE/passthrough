@@ -12,7 +12,7 @@ import (
 	"vu/ase/streamserver/src/httpserver"
 	"vu/ase/streamserver/src/state"
 
-	rtc "github.com/VU-ASE/pkg-Rtc/src"
+	rtc "github.com/VU-ASE/roverrtc/src"
 
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"

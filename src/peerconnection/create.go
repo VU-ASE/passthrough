@@ -3,7 +3,7 @@ package peerconnection
 import (
 	"fmt"
 
-	rtc "github.com/VU-ASE/pkg-Rtc/src"
+	rtc "github.com/VU-ASE/roverrtc/src"
 
 	"github.com/pion/webrtc/v4"
 )

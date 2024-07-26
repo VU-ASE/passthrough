@@ -17,7 +17,7 @@ import (
 	"vu/ase/streamserver/src/events"
 	"vu/ase/streamserver/src/state"
 
-	rtc "github.com/VU-ASE/pkg-Rtc/src"
+	rtc "github.com/VU-ASE/roverrtc/src"
 )
 
 type EndpointError struct {

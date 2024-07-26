@@ -6,7 +6,7 @@ import (
 	"sync"
 	livestreamconfig "vu/ase/streamserver/src/config"
 
-	rtc "github.com/VU-ASE/pkg-Rtc/src"
+	rtc "github.com/VU-ASE/roverrtc/src"
 	"github.com/pion/ice/v3"
 	"github.com/pion/webrtc/v4"
 

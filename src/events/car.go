@@ -8,9 +8,9 @@ import (
 	"vu/ase/streamserver/src/peerconnection"
 	"vu/ase/streamserver/src/state"
 
-	pb_remote_config_messages "github.com/VU-ASE/pkg-CommunicationDefinitions/v2/packages/go"
+	pb_remote_config_messages "github.com/VU-ASE/rovercom/packages/go"
 
-	rtc "github.com/VU-ASE/pkg-Rtc/src"
+	rtc "github.com/VU-ASE/roverrtc/src"
 
 	"github.com/pion/webrtc/v4"
 	"github.com/rs/zerolog/log"

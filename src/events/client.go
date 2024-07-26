@@ -9,13 +9,13 @@ import (
 	"github.com/rs/zerolog/log"
 	"google.golang.org/protobuf/proto"
 
-	pb_remote_config_messages "github.com/VU-ASE/pkg-CommunicationDefinitions/v2/packages/go"
+	pb_remote_config_messages "github.com/VU-ASE/rovercom/packages/go"
 
 	livestreamconfig "vu/ase/streamserver/src/config"
 	"vu/ase/streamserver/src/peerconnection"
 	"vu/ase/streamserver/src/state"
 
-	rtc "github.com/VU-ASE/pkg-Rtc/src"
+	rtc "github.com/VU-ASE/roverrtc/src"
 
 	"github.com/pion/webrtc/v4"
 )
